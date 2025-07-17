@@ -4,10 +4,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import Navigation from "@/components/navigation"
+import SkillsDisplay from "@/components/ui/skills-display";
 
-export default function HomePage() {
-  // const skills = ["React", "Next.js", "TypeScript", "Python", "Node.js", "PostgreSQL", "AWS", "Docker", "Git", "Figma"];
-  const skills = {
+const skills = {
     "Programming Languages & Libraries": [
       "Python",
       "Pandas",
@@ -70,6 +69,11 @@ export default function HomePage() {
       "Memory Optimization"
     ]
   };
+
+
+export default function HomePage() {
+  // const skills = ["React", "Next.js", "TypeScript", "Python", "Node.js", "PostgreSQL", "AWS", "Docker", "Git", "Figma"];
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white dark:from-slate-800 dark:to-slate-900">
@@ -163,6 +167,10 @@ export default function HomePage() {
             </div>
           </CardContent>
         </Card>
+
+        
+
+        
 
         {/* Current Work Section */}
         <Card className="mb-12">
