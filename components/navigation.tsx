@@ -49,9 +49,9 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white text-sm">
-              JD
+              VS
             </div>
-            John Doe
+            Veer Sandhu
           </Link>
 
           {/* Desktop Navigation */}

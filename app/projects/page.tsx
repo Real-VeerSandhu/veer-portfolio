@@ -25,7 +25,7 @@ export default function ProjectsPage() {
       github: "https://github.com",
       demo: "https://demo.com",
       date: "2024",
-      status: "In Progress",
+      status: "Developing",
     },
     {
       title: "Task Management API",
@@ -53,7 +53,7 @@ export default function ProjectsPage() {
       github: "https://github.com",
       demo: "https://demo.com",
       date: "2024",
-      status: "In Progress",
+      status: "Developing",
     },
     {
       title: "Portfolio Website",
